@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Rubik", sans-serif;
+    font-size: 20px;
+}
+
+:root {
+    --Header_color: #f83909;
+    --Body_Color: #fdc024;
+}
+
+body {
+
+    display: flex;
+    font-optical-sizing: auto;
+    font-weight: 1rem;
+    font-style: normal;
+    background-color: var(--Body_Color);
+
+} 
+
+header {
+    background-color: var(--Header_color);
+    filter: blur(1px);
+    display:flex;
+    align-items: center;
+    height: 11vh;
+    position: fixed;
+    width:100%;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    gap: 1rem;
+}
+
+header .logo {
+    
+    display: flex;
+    cursor: pointer;
+    flex: 1;
+    flex-grow: 1;
+}
+
+header .logo img {
+
+    height: 80px;
+    width: auto;
+    transition: all 0.3s;
+}
+
+header .logo img:hover {
+
+    transform: scale(1.2);
+}
+
+header .nav_link{
+
+    display: flex;
+    flex: 2;
+    flex-grow: 2;
+}
+
+header .nav_link li{
+    
+    display: inline-block;
+    padding: 0 20px;
+}
+
+header .nav_link li:hover{
+
+    transform: scale(1.1);
+
+}
+
+header .nav_link a {
+
+    font-size: 700;
+    color: white;
+    text-decoration: none;
+}
+
+header .nav_link li a:hover{
+
+    color: gold;
+}
+
+header .btn button{
+
+    font-weight: 500;
+    color:darkslategray;
+    padding: 5px 20px;
+    background: beige;
+    border: none;
+    border-radius: 10%;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+header .btn button:hover{
+    
+    background-color: blanchedalmond;
+    color: darkorange;
+    transform: scale(1.1);
+}
+
