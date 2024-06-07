@@ -152,12 +152,18 @@ about
     display: flex;
     flex-direction:row;
     justify-content:space-between;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+    color: #02050e;
 }
 #contenido button {
-    border-radius: 40%;
+    border-radius: 10%;
     border-style: solid;
     background-color: #db5d27;
-
+    text-decoration: none;
     
 width:300px;
 
