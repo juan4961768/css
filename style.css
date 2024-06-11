@@ -170,6 +170,11 @@ width:300px;
 
 }
 
+#contenido button:hover {
+  transform: scale(1.2);
+
+}
+
 
 #card {
     display: flex;
